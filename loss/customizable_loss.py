@@ -26,8 +26,8 @@ class Custom_Loss(nn.Module):
         return down_sample1, down_sample2
 
     def up_sample(self, down_sample1, down_sample2):
-        up_sample1 = F.interpolate(down_sample1, scale_factor=2, mode="bilinear", align_corners=False)
-        up_sample2 = F.interpolate(down_sample2, scale_factor=2, mode="bilinear", align_corners=False)
+        up_sample1 = F.interpolate(down_sample1, scale_factor=2, mode="bicubic", align_corners=False)
+        up_sample2 = F.interpolate(down_sample2, scale_factor=2, mode="bicubic", align_corners=False)
         return up_sample1, up_sample2
 
     def forward(self, noise_images):
