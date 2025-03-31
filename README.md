@@ -1,16 +1,6 @@
 # DS-N2N
 Dual-Sampling Noise2Noise: Efficient Single Image Denoising
 
-If you have referenced the content of this repository, please cite the following papers:
-
-* @article{bai2025dual,
-*  title={Dual-Sampling Noise2Noise: Efficient Single Image Denoising},
-*  author={Bai, Jibo and Zhu, Daqi and Chen, Mingzhi},
-*  journal={IEEE Transactions on Instrumentation and Measurement},
-*  year={2025},
-*  publisher={IEEE}
-* }
-
 ## How to run
 
 ### 1. Dependences
@@ -46,6 +36,14 @@ If you want to save psnr, ssim, and loss data, please release the save file comm
 Please note that saving the data will significantly increase the denoising processing time！
 
 
+# If you have referenced the content of this repository, please cite the following papers:
+* @article{bai2025dual,
+*  title={Dual-Sampling Noise2Noise: Efficient Single Image Denoising},
+*  author={Bai, Jibo and Zhu, Daqi and Chen, Mingzhi},
+*  journal={IEEE Transactions on Instrumentation and Measurement},
+*  year={2025},
+*  publisher={IEEE}
+* }
 
 
 
