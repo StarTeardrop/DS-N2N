@@ -36,7 +36,7 @@ If you want to save psnr, ssim, and loss data, please release the save file comm
 Please note that saving the data will significantly increase the denoising processing time！
 
 
-### Cite
+## Cite
 If you have referenced the content of this repository, please cite the following papers:
 @article{bai2025dual,
   title={Dual-Sampling Noise2Noise: Efficient Single Image Denoising},
