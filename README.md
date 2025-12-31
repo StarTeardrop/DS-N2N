@@ -37,13 +37,15 @@ Please note that saving the data will significantly increase the denoising proce
 
 
 # If you have referenced the content of this repository, please cite the following papers:
-* @article{bai2025dual,
-*  title={Dual-Sampling Noise2Noise: Efficient Single Image Denoising},
-*  author={Bai, Jibo and Zhu, Daqi and Chen, Mingzhi},
-*  journal={IEEE Transactions on Instrumentation and Measurement},
-*  year={2025},
-*  publisher={IEEE}
-* }
-
-
-
+```bibtex
+@ARTICLE{10927623,
+  author={Bai, Jibo and Zhu, Daqi and Chen, Mingzhi},
+  journal={IEEE Transactions on Instrumentation and Measurement}, 
+  title={Dual-Sampling Noise2Noise: Efficient Single-Image Denoising}, 
+  year={2025},
+  volume={74},
+  number={},
+  pages={1-12},
+  keywords={Noise reduction;Noise;Noise measurement;Training;Image denoising;Image resolution;Convolutional neural networks;Computational modeling;Residual neural networks;Gaussian noise;DsNet;dual sampler;dual-sampling Noise2Noise (DS-N2N);single-image denoising method},
+  doi={10.1109/TIM.2025.3551427}
+}
