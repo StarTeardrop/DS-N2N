@@ -25,8 +25,7 @@ python main.py \
   --ssim_data_save_path (ssim data save path, type = str, default = './data/25g_ssim.txt') \
   --loss_data_save_path (loss data save path, type = str, default = './data/25g_loss.txt')
 
-**NOTE**
-If you want to save psnr, ssim, and loss data, please release the save file comments under train.py：
+# If you want to save psnr, ssim, and loss data, please release the save file comments under train.py：
 * denosied_psnr = Test_Denosie_PSNR(self.model, noise_image, clean_image)
 * denosied_ssim = Test_Denosie_SSIM(self.model, noise_image, clean_image)
 * progress_bar.set_postfix(loss=loss.item(), denoising_PSNR=denosied_psnr, denosied_SSIM=denosied_ssim)
