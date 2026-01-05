@@ -1,15 +1,15 @@
 # DS-N2N
 Dual-Sampling Noise2Noise: Efficient Single Image Denoising
 
-## How to run
+# How to run
 
-### 1. Dependences
+## 1. Dependences
 * python == 3.8
 * pytorch == 2.0.1
 * skimage == 0.19.0
 * tqdm == 4.50.2
 
-### 2. Train DS-N2N
+## 2. Train DS-N2N
 ```
 python main.py \
   --image_folder (your nosiy images folder, type = str) \
@@ -36,7 +36,7 @@ If you want to save psnr, ssim, and loss data, please release the save file comm
 Please note that saving the data will significantly increase the denoising processing time！
 
 
-### If you have referenced the content of this repository, please cite the following papers:
+# If you have referenced the content of this repository, please cite the following papers:
 ```bibtex
 @ARTICLE{10927623,
   author={Bai, Jibo and Zhu, Daqi and Chen, Mingzhi},
