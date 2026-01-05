@@ -36,7 +36,7 @@ If you want to save psnr, ssim, and loss data, please release the save file comm
 Please note that saving the data will significantly increase the denoising processing time！
 
 
-# If you have referenced the content of this repository, please cite the following papers:
+### If you have referenced the content of this repository, please cite the following papers:
 ```bibtex
 @ARTICLE{10927623,
   author={Bai, Jibo and Zhu, Daqi and Chen, Mingzhi},
