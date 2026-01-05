@@ -10,7 +10,7 @@ Dual-Sampling Noise2Noise: Efficient Single Image Denoising
 * tqdm == 4.50.2
 
 ## 2. Train DS-N2N
-```
+```bash
 python main.py \
   --image_folder (your nosiy images folder, type = str) \
   --device (cuda or cpu, type = str, default = 'cuda') \
